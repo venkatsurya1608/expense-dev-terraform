@@ -12,7 +12,7 @@ data "aws_ami" "ami_info" {
   
   most_recent      = true
   
-  owners           = ["973714476881"]    # same ami
+  owners           = ["973714476881"]    # same ami 
 
   filter {
     name   = "name"
@@ -29,7 +29,3 @@ data "aws_ami" "ami_info" {
     values = ["hvm"]
   }
 }
-
-# data "aws_vpc" "default" {
-#     default = true
-# }

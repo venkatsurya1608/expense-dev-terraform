@@ -14,7 +14,7 @@ module "db" {
 
   # DB subnet group
   #create_db_subnet_group = true        #true esthe automatic ga create chesthundi,already undi kabbati manully
-  db_subnet_group_name = data.aws_ssm_parameter.db_subnet_group_name.value
+  #db_subnet_group_name = data.aws_ssm_parameter.db_subnet_group_name.value
   #subnet_ids             = ["subnet-12345678", "subnet-87654321"]  
 
   # DB parameter group
