@@ -16,5 +16,5 @@ variable "common_tags" {
 }
 
 variable "zone_name" {
-  default = "db.venkatdevops.online"
+  default = "venkatdevops.online"
 }
