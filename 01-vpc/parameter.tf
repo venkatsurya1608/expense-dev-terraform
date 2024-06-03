@@ -6,6 +6,7 @@ resource "aws_ssm_parameter" "vpc_id" {
 
 #["venkat_id1", "venkat_id2"] this is terraform format (list lo terraform format) 
 # venkat_id1 , venkat_id2    this is SSM aws parameter format (in list) 
+
 resource "aws_ssm_parameter" "public_subnet_ids" {
   name  = "/${var.project_name}/${var.environment}/public_subnet_ids"
   type  = "StringList"

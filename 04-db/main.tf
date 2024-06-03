@@ -77,7 +77,7 @@ module "records" {
       type    = "CNAME"
       ttl = 1
       records = [
-        module.db.db_instance_address
+        module.db.db_instance_address     #The address of the RDS instance
       ]
     }
   ]

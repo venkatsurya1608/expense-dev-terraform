@@ -13,3 +13,8 @@ variable "common_tags" {
         terraform = "true"
     }
 }
+
+variable "zone_name" {
+    default = "venkatdevops1608.online"
+  
+}

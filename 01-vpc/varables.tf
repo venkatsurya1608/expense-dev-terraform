@@ -6,10 +6,10 @@ variable "environment" {
     default = "dev"
   
 }
-# variable "sg_group" {
-#     default = "db"
+variable "sg_group" {
+    default = "db"
   
-# }
+}
 
 variable "common_tags" {
     default = {
@@ -36,11 +36,11 @@ variable "database_subnet_cidrs" {
 }
 
 # peering connection ##
-variable "is_peering_required" {
-    type = bool
-    default = false
+# variable "is_peering_required" {
+#     type = bool
+#     default = false
   
-}
+# }
 
 # variable "acceptor_vpc_id" {
 #     type = string
