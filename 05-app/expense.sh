@@ -1,5 +1,4 @@
 #!/bin/bash
-#here automatic taken sudo access
 dnf install ansible -y
 cd /tmp
 git clone https://github.com/venkatsurya1608/expense-ansible-roles.git
